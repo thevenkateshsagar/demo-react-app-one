@@ -1,0 +1,13 @@
+name: Hello react app demo
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  helloreact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print hello react demo
+        run: echo "Hello welcome to react demo"
