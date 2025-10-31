@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: Print hello react demo
         run: echo "Hello welcome to react demo"
+      - name: show env and context
+        run: |
+          echo "Runner OS: $RUNNER_OS"
+          echo "Default Shell: $SHELL"
+          echo "Commit: $GITHUB_SHA"
